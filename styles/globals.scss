@@ -1,0 +1,34 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Baloo Tamma 2", cursive;
+}
+
+*:focus {
+  box-shadow: none !important;
+}
+.container-space {
+  padding: 0 5%;
+}
+
+.rc-menu {
+  .rc-menu-submenu {
+    padding: 2px 0px !important;
+  }
+  .rc-menu-item-active,
+  .rc-menu-submenu-active > .rc-menu-submenu-title {
+    background: red;
+    color: #ffff;
+  }
+  .rc-menu-submenu-title,
+  .rc-menu-item {
+    &:hover {
+      background: green;
+      color: #ffff;
+    }
+
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+  }
+}
